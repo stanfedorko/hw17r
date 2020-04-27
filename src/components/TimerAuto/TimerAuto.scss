@@ -1,0 +1,16 @@
+.color-flash-line{
+  display: flex;
+  transform-style: flat;
+  align-items: center;
+  border-radius: 6px;
+  height: 50px;
+  width: 1000px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.4s ease-in-out 0s;
+  background: linear-gradient(to right, olive, maroon, lime, orange, fuchsia, yellow, navy, green, red, grey, blue, violet, teal, tomato, cyan);
+}
+.textContent {
+  padding: 5px 10px;
+}

@@ -1,0 +1,16 @@
+.rainbow-line{
+  display: flex;
+  transform-style: flat;
+  align-items: center;
+  border-radius: 6px;
+  height: 50px;
+  width: 1000px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.4s ease-in-out 0s;
+  background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+}
+.textContent {
+  padding: 5px 10px;
+}
